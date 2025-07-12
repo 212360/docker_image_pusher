@@ -5,12 +5,15 @@ nginx
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 
+#k8s-ingress-nginx官方组件镜像
 #registry.k8s.io/ingress-nginx/controller:v1.12.3
 #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.4
 #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.4
 
-kubernetesui/dashboard:v2.0.0
-kubernetesui/metrics-scraper:v1.0.4
+#k8s-官网页面组件镜像
+#kubernetesui/dashboard:v2.0.0
+#kubernetesui/metrics-scraper:v1.0.4
+registry.k8s.io/metrics-server/metrics-server:v0.7.2
 
 #tomcat
 #python
